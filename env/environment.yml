@@ -1,0 +1,35 @@
+name: HPVxHunter
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core languages
+  - python=3.10
+  - perl
+  - r-base=4.3
+
+  # Python packages
+  - biopython=1.77
+  - matplotlib
+  - pandas
+
+  # R packages
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-readxl
+  - r-rcolorbrewer
+  - r-stringr
+
+  # Bioinformatics tools
+  - vsearch
+  - blast
+  - muscle
+  - meme
+  - gnumeric  # contains ssconvert
+  
+  # Perl modules
+  - perl-file-find-rule
+  - perl-autodie
+  - perl-excel-writer-xlsx
