@@ -1,1 +1,1 @@
-"This folder contains all databases needed for comparisons."
+"This folder contains all databases needed for comparisons.".
