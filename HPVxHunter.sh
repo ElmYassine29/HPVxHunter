@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-# ======= HELP SECTION =======
+#  ======= HELP SECTION =======
 if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
     echo "Usage: $0 [options]
 
