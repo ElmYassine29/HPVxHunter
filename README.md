@@ -86,6 +86,9 @@ git clone https://github.com/ElmYassine29/HPVxHunter.git
 cd HPVxHunter
 conda env create -f env/environment.yml
 conda activate HPVxHunter
+
+sudo apt update
+sudo apt install gnumeric
 ```
 
 
