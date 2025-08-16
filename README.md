@@ -41,7 +41,7 @@ The tool supports curated, public, and user-provided reference databases, with *
 
 ---
 
-## ⚙ How It Works
+##  How It Works
 
 1. **Input parsing & configuration**  
    - User specifies reference DB (`--db pave | genbank | <custom_path>`), sample FASTA, and optional parameters (`--deep_analysis`, `--format`, `--plot`, etc.).  
