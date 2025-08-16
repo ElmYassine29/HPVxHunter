@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   # Core languages
-  - python=3.10
+  - python=3.8.18
   - perl
   - r-base=4.3
 
@@ -27,8 +27,7 @@ dependencies:
   - blast
   - muscle
   - meme
-  - gnumeric  # contains ssconvert
-  
+
   # Perl modules
   - perl-file-find-rule
   - perl-autodie
